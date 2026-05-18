@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Project</title>
-    <link href="./output.css" rel="stylesheet">
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digital Project</title>
+        <link rel="stylesheet" href="./src/output.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="h-[102px] w-full flex items-center relative">
+            <!-- logo -->
+             <div class="flex flex-col h-[43.7px] w-[70px] absolute left-[135px]">
+                <img src="./assets/Group 8.svg" alt="Brand Logo">
+                <img src="./assets/Vector.svg" alt="" class="object-cover h-[12.45px] w-[68.5]">
+             </div>
+             
+             <nav class="flex gap-6 ml-[36.5%] font-[roboto] text-[12px] leading-[12px] uppercase tracking-[20%] items-center">
+                <div class="border-b border-t py-2 px-3 border-[#333333]">
+                    <a href="">Main</a>
+                </div>
+                <a href="">Gallery</a>
+                <a href="">Projects</a>
+                <a href="">Certifications</a>
+                <a href="">Contacts</a>
+             </nav>
+        </header>
+        <main>
+            <!-- Hero -->
+            <Section class="px-[6rem] h-[829px] overflow-hidden">
+                <div class="grid grid-cols-[1fr_770px]">
+                    <div class="text-[64px] leading-[64px] flex flex-col justify-center">
+                        <p class="font-[roboto] font-light text-[#BDBDBD]">PROJECT</p>
+                        <p class="font-[roboto] font-bold">Lorum</p>
+                    </div>
+                    <div>
+                        <img src="./assets/heroImg.jpg" alt="">
+                    </div>
+                </div>
+            </Section>
+        </main>
+    </body>
 </html>

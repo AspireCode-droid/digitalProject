@@ -1,4 +1,5 @@
 /*! tailwindcss v4.3.0 | MIT License | https://tailwindcss.com */
+@layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -6,6 +7,10 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --spacing: 0.25rem;
+    --font-weight-light: 300;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -158,4 +163,260 @@
     display: none !important;
   }
 }
-@layer utilities;
+@layer utilities {
+  .absolute {
+    position: absolute;
+  }
+  .relative {
+    position: relative;
+  }
+  .left-\[135px\] {
+    left: 135px;
+  }
+  .mx-auto {
+    margin-inline: auto;
+  }
+  .ml-44 {
+    margin-left: calc(var(--spacing) * 44);
+  }
+  .ml-\[30\%\] {
+    margin-left: 30%;
+  }
+  .ml-\[35\%\] {
+    margin-left: 35%;
+  }
+  .ml-\[36\%\] {
+    margin-left: 36%;
+  }
+  .ml-\[36\.5\%\] {
+    margin-left: 36.5%;
+  }
+  .ml-\[38\%\] {
+    margin-left: 38%;
+  }
+  .ml-\[40\%\] {
+    margin-left: 40%;
+  }
+  .ml-\[45\%\] {
+    margin-left: 45%;
+  }
+  .ml-\[50\%\] {
+    margin-left: 50%;
+  }
+  .flex {
+    display: flex;
+  }
+  .grid {
+    display: grid;
+  }
+  .h-\[12\.45px\] {
+    height: 12.45px;
+  }
+  .h-\[43\.7px\] {
+    height: 43.7px;
+  }
+  .h-\[43\.714290618896484\] {
+    height: 43.714290618896484;
+  }
+  .h-\[102px\] {
+    height: 102px;
+  }
+  .h-\[829px\] {
+    height: 829px;
+  }
+  .w-\[68\.5\] {
+    width: 68.5;
+  }
+  .w-\[68\.5px\] {
+    width: 68.5px;
+  }
+  .w-\[70px\] {
+    width: 70px;
+  }
+  .w-full {
+    width: 100%;
+  }
+  .transform {
+    transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+  }
+  .grid-cols-\[1fr_770px\] {
+    grid-template-columns: 1fr 770px;
+  }
+  .grid-cols-\[1fr_\] {
+    grid-template-columns: 1fr ;
+  }
+  .grid-cols-\[770px_1fr\] {
+    grid-template-columns: 770px 1fr;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
+  .self-center {
+    align-self: center;
+  }
+  .self-end {
+    align-self: flex-end;
+  }
+  .justify-self-center {
+    justify-self: center;
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .border-t {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 1px;
+  }
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
+  .border-\[\#333333\] {
+    border-color: #333333;
+  }
+  .object-cover {
+    object-fit: cover;
+  }
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
+  }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
+  }
+  .px-6 {
+    padding-inline: calc(var(--spacing) * 6);
+  }
+  .px-8 {
+    padding-inline: calc(var(--spacing) * 8);
+  }
+  .px-28 {
+    padding-inline: calc(var(--spacing) * 28);
+  }
+  .px-32 {
+    padding-inline: calc(var(--spacing) * 32);
+  }
+  .px-\[3rem\] {
+    padding-inline: 3rem;
+  }
+  .px-\[4rem\] {
+    padding-inline: 4rem;
+  }
+  .px-\[5rem\] {
+    padding-inline: 5rem;
+  }
+  .px-\[6rem\] {
+    padding-inline: 6rem;
+  }
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
+  }
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
+  }
+  .align-middle {
+    vertical-align: middle;
+  }
+  .font-\[roboto\] {
+    font-family: roboto;
+  }
+  .text-\[12px\] {
+    font-size: 12px;
+  }
+  .text-\[64px\] {
+    font-size: 64px;
+  }
+  .leading-\[12px\] {
+    --tw-leading: 12px;
+    line-height: 12px;
+  }
+  .leading-\[64px\] {
+    --tw-leading: 64px;
+    line-height: 64px;
+  }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
+  }
+  .font-light {
+    --tw-font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-light);
+  }
+  .font-semibold {
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+  }
+  .tracking-\[20\%\] {
+    --tw-tracking: 20%;
+    letter-spacing: 20%;
+  }
+  .text-\[\#BDBDBD\] {
+    color: #BDBDBD;
+  }
+  .capitalize {
+    text-transform: capitalize;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+}
+@property --tw-rotate-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-y {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-z {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-y {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@property --tw-leading {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-tracking {
+  syntax: "*";
+  inherits: false;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-rotate-x: initial;
+      --tw-rotate-y: initial;
+      --tw-rotate-z: initial;
+      --tw-skew-x: initial;
+      --tw-skew-y: initial;
+      --tw-border-style: solid;
+      --tw-leading: initial;
+      --tw-font-weight: initial;
+      --tw-tracking: initial;
+    }
+  }
+}
