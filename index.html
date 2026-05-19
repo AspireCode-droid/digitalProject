@@ -29,7 +29,7 @@
         </header>
         <main>
             <!-- Hero -->
-            <Section class="px-[6rem] ">
+            <Section class="px-[6rem]">
                 <div class="grid grid-cols-[1fr_770px]">
                     <div class="text-[64px] leading-[64px] flex flex-col justify-center">
                         <div>
@@ -72,9 +72,104 @@
             </Section>
 
             <!-- About Section -->
-            <section class="mt-7">
-
+            <section class="mt-7 px-[6rem]">
+                <div class="h-[435px] grid grid-cols-[270px_270px_400px] mx-auto gap-6 py-3 px-6 justify-center">
+                    <div class="flex-col flex gap-6">
+                        <img src="./assets/topImg.jpg" alt="" class="w-[270px] h-[265px] object-cover">
+                        <img src="./assets/lowerImg.jpg" alt="" class="w-[270px] h-[140px] object-cover">
+                    </div>
+                    <div class="my-auto">
+                        <img src="./assets/middleImg.jpg" alt="" class="w-[270px] h-[345px] object-cover">
+                    </div>
+                    <div class="relative flex flex-col gap-6">
+                        <h3 class="text-[64px] font-[Roboto] font-light leading-[64px] text-[#BDBDBD]">About</h3>
+                        <p class="text-[16px] font-[roboto] leading-[25px] font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <div class="w-[221.8px] h-[71px] bg-white absolute bottom-0 z-10">
+                            <div class="flex items-center h-full ml-4 gap-1">
+                                <p class="font-[roboto] text-[12px] leading-[12px] tracking-[20%]">READ MORE</p>
+                                <img src="./assets/arrow-2-right-long.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
+
+            <!-- Mission -->
+            <section class="font-[roboto] my-20 flex-col px-[6rem]">
+                <h2 class="text-[64px] leading-[64px] text-[#BDBDBD] font-light justify-start">Main Focus/Mission Statement</h2>
+                <div class="grid grid-cols-[413px_570px] justify-between mt-10 text-[22px] leading-[36px] font-[roboto]">
+                    <div class="pl-[8.5rem]">
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat.</p>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat, magna mauris porttitor tortor, a auctor est felis ut nisl.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="px-[6rem] my-20 relative flex flex-col gap-10">
+                <h3 class="text-[#BDBDBD] text-[64px] leading-[64px] font-[roboto] font-light mb-16">Our Projects</h3>
+                <div class="flex flex-col gap-8">
+
+                    <!-- Top row -->
+                    <div class="grid grid-cols-[570px_570px] gap-6 justify-center">
+                        <div class="h-[255px]"><img src="./assets/img1.png" alt="" class="object-cover w-full h-full"></div>
+                        <div class="h-[255px]"><img src="./assets/img2.png" alt="" class="object-cover h-full w-full"></div>
+                    </div>
+
+                    <!-- Bottom row -->
+                    <div class="grid grid-cols-[270px_470px_370px] gap-6 justify-center">
+                        <div class="h-[255px]"><img src="./assets/img3.png" alt="" class="object-cover w-full h-full"></div>
+                        <div class="h-[255px]"><img src="./assets/img4.png" alt="" class="object-cover w-full h-full"></div>
+                        <div class="h-[255px]"><img src="./assets/img5.png" alt="" class="object-cover w-full h-full"></div>
+                    </div>
+
+                </div>
+                <div class="w-[221.8px] h-[71px] bg-[#333333] relative place-self-end">
+                    <div class="flex items-center h-full  gap-1 justify-center">
+                        <p class="font-[roboto] text-[12px] text-white leading-[12px] tracking-[20%]">All Projects</p>
+                        <img src="./assets/arrow-2-right-long (1).svg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section class="px-[6rem]">
+                <h3 class="text-[#BDBDBD] text-[64px] leading-[64px] font-[roboto] font-light mb-16">Contact Us</h3>
+                <div class="grid grid-cols-2">
+                    <div>
+                        <form action="" method="post" class="flex flex-col gap-3 w-[391px]">
+                            <!-- Name -->
+                            <label for="Name"></label>
+                            <input type="text" name="" id="name" class="bg-[#F3F3F3] px-2.5 py-2" placeholder="Name">
+
+                            <!-- Phone NO. -->
+                            <label for="Phone number"></label>
+                            <input type="number" placeholder="Phone Number*" class="bg-[#F3F3F3] px-2.5 py-2">
+
+                            <!-- EMail -->
+                            <label for=""></label>
+                            <input type="email" class="bg-[#F3F3F3] px-2.5 py-2" placeholder="E-mail*">
+
+                            <!-- Interest -->
+                            <label for=""></label>
+                            <input type="text" class="bg-[#F3F3F3] px-2.5 py-2" placeholder="Interested In">
+
+                            <!-- Message -->
+                            <label for=""></label>
+                            <textarea name="" id="" placeholder="Message*" class="resize-none min-h-[147px] bg-[#F3F3F3] px-2.5 py-2"></textarea>
+                        </form>
+                    </div>
+                    <div class="h-[369px] w-[749px]">
+                        <img src="./assets/contactImg.jpg" alt="" class="object-cover w-full h-full"> 
+                    </div>
+                </div>
+                
+            </section>
+
+            <!--Footer-->
+
         </main>
     </body>
 </html>
