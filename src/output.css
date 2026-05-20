@@ -171,6 +171,12 @@
   .relative {
     position: relative;
   }
+  .-right-6 {
+    right: calc(var(--spacing) * -6);
+  }
+  .right-0 {
+    right: calc(var(--spacing) * 0);
+  }
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
   }
@@ -183,8 +189,14 @@
   .z-10 {
     z-index: 10;
   }
+  .mx-4 {
+    margin-inline: calc(var(--spacing) * 4);
+  }
   .mx-auto {
     margin-inline: auto;
+  }
+  .my-2 {
+    margin-block: calc(var(--spacing) * 2);
   }
   .my-16 {
     margin-block: calc(var(--spacing) * 16);
@@ -210,6 +222,12 @@
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
+  .mt-11 {
+    margin-top: calc(var(--spacing) * 11);
+  }
+  .mt-12 {
+    margin-top: calc(var(--spacing) * 12);
+  }
   .mt-14 {
     margin-top: calc(var(--spacing) * 14);
   }
@@ -231,11 +249,20 @@
   .ml-0 {
     margin-left: calc(var(--spacing) * 0);
   }
+  .ml-1 {
+    margin-left: calc(var(--spacing) * 1);
+  }
   .ml-4 {
     margin-left: calc(var(--spacing) * 4);
   }
   .ml-8 {
     margin-left: calc(var(--spacing) * 8);
+  }
+  .ml-10 {
+    margin-left: calc(var(--spacing) * 10);
+  }
+  .ml-16 {
+    margin-left: calc(var(--spacing) * 16);
   }
   .ml-\[36\.5\%\] {
     margin-left: 36.5%;
@@ -263,6 +290,9 @@
   }
   .h-\[43\.7px\] {
     height: 43.7px;
+  }
+  .h-\[46px\] {
+    height: 46px;
   }
   .h-\[52px\] {
     height: 52px;
@@ -309,6 +339,9 @@
   .h-full {
     height: 100%;
   }
+  .h-screen {
+    height: 100vh;
+  }
   .min-h-\[147px\] {
     min-height: 147px;
   }
@@ -348,6 +381,9 @@
   .w-\[270px\] {
     width: 270px;
   }
+  .w-\[280px\] {
+    width: 280px;
+  }
   .w-\[391px\] {
     width: 391px;
   }
@@ -356,6 +392,9 @@
   }
   .w-\[1170px\] {
     width: 1170px;
+  }
+  .w-\[1319px\] {
+    width: 1319px;
   }
   .w-full {
     width: 100%;
@@ -499,6 +538,9 @@
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
+  }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
   }
@@ -547,6 +589,9 @@
   .text-\[16px\] {
     font-size: 16px;
   }
+  .text-\[18px\] {
+    font-size: 18px;
+  }
   .text-\[22px\] {
     font-size: 22px;
   }
@@ -582,6 +627,10 @@
   .leading-\[64px\] {
     --tw-leading: 64px;
     line-height: 64px;
+  }
+  .leading-\[141\%\] {
+    --tw-leading: 141%;
+    line-height: 141%;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
